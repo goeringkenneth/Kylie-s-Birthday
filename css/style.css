@@ -183,6 +183,7 @@ width: 100vw;
     .not{
         height: 20vh;
         width: 30vw;
+        margin-bottom: 100px;
     }
 
     .scene{
