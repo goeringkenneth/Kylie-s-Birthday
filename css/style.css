@@ -150,6 +150,14 @@ width: 100vw;
     background-color: rgb(235, 20, 163);
     align-items: top;
     }
+      .lword{
+        color: black;
+        font-family: cursive;
+        font-size: larger;
+        display: flex;
+        justify-content: center; 
+        margin-top: auto;
+      }
 
     .info{
         width:70vw;
