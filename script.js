@@ -4,6 +4,8 @@ const lineTop=document.querySelector('.lineTop')
 const lineMid=document.querySelector('.lineMid')
 const lineBott=document.querySelector('.lineBott')
 const lineAss=document.querySelector('.lineAss')
+const cube=document.querySelector('.cube')
+const scene=document.querySelector('.scene')
 
 const links=document.querySelectorAll('.nav-links li')
 
@@ -12,7 +14,10 @@ hamburger.addEventListener("click", ()=> {
     lineMid.classList.toggle("open");
     lineBott.classList.toggle("open");
     lineAss.classList.toggle("open");
-    
+
+    cube.classList.toggle("open");
+    scene.classList.toggle("open");
+
     navLinks.classList.toggle("open");
     links.forEach(link =>{
         link.classList.toggle("fade")

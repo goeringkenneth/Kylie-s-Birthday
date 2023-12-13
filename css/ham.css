@@ -65,7 +65,8 @@ nav{/*backgound of the nav pulldown "should be you position on maps, and pinded 
 .nav-links li a{
   color:white;
   text-decoration: none;
-  font-size: 18px;
+  font-weight: bolder;
+  font-size: 30px;
   margin-right: 50px;
   
 }
@@ -115,6 +116,13 @@ transform: translate( 0%, 600%) rotate(-45deg) ;
   clip-path: circle(1000px at 90% -15%);
   -webkit-clip-path:circle(1000px at 90% -15%);
   pointer-events: all;
+
+}
+.cube.open{
+  opacity: 0;
+}
+.scene.open{
+  opacity: 0;
 }
 
 .nav-links li{
@@ -143,8 +151,13 @@ li.fade{
 }
 
 
-@media screen and (max-width:768px) {
-  .line{
-      background: blue;
+@media screen and (max-width:412px) {
+  .nav-links{
+    background-size: 200vw;
   }
+  .nav-links li a{
+    color:rgb(244, 247, 247);
+    background-color: rgb(153, 19, 211);
+  }
+
   }

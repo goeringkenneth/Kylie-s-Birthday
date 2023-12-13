@@ -21,18 +21,21 @@ body {
 .lword{
     color: black;
     font-family: cursive;
+    font-size: larger;
     display: flex;
     justify-content: center; 
 
 }
 .cword{
     color:aqua;
+    font-size: larger;
+    margin-left: 20px;
 }
 
 .info{
     width:50vw;
     height:90vh;
-    margin-bottom: 150px;
+    margin-bottom: 300px;
     margin-left: 500px;
     background-color: rgba(255, 240, 253, 0.747);
     border-radius: 20%;
@@ -59,7 +62,7 @@ h4{
     font-family: cursive;
     font-size: 20px;
     margin-top: 1px;
-    margin-left: 20px;
+    margin-left: 12px;
     
 }
 .email{
@@ -97,9 +100,9 @@ h4{
     flex-direction: column;
     /* opacity: 50%; */
     /* background-image:url(.././pic/golfBG.jpg); */
-    background-size: 110vw;
+    background-size: 100vw;
     background-image:url(.././pic/helloKittty_90.jpg);
-    height: 100vh;   
+    height: 120vh;   
     width: 90vw;
 }
 
@@ -111,26 +114,6 @@ h4{
     margin-left: 10px;
     margin-top: 120px;
 }
-
-/* .kyliePic{
-    display: flex;
-    flex-direction: row;
-    margin-top: 5vh;
-    justify-content:space-around;
-    width:100vw;
-
-}
-.kylie{
-
-    display: flex;
-    flex-direction: row;
-    height: 40vh;   
-    width: auto;
-    border-radius: 20px;
-
-} */
-
-
 
 .midRight{
     display: flex;
@@ -145,5 +128,69 @@ height: 4vh;
 width: 100vw;
 }
 
+@media screen and (max-width:412px) {
+   
+    .rightSide{
+        display: flex;
+        flex-direction: column;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        background-image:url(.././pic/helloKittty.jpg);
+        height: 100vh;   
+        width: 90vw;
+    }
 
+.leftfull{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-direction: column; 
+    opacity: 100%;
+    height: 90vh;
+    width: 30vw;
+    background-color: rgb(235, 20, 163);
+    align-items: top;
+    }
 
+    .info{
+        width:70vw;
+        height:60vh;
+        margin-top: 250px;
+        margin-bottom: 0px;
+        margin-left: 2px;
+        background-color: rgba(255, 240, 253, 0.747);
+        border-radius: 15%;
+    
+    }
+    h4{
+        margin-top: 50px;
+        margin-left: 10px;
+        font-family: cursive;
+        font-weight:bolder;
+        color: black;
+        font-size: 12px;
+        display: flex;
+        justify-content: center; 
+        background-color:none;
+        
+    
+    }
+    
+    .going{
+        height: 20vh;
+        width: 30vw;
+    }
+    
+    .not{
+        height: 20vh;
+        width: 30vw;
+    }
+
+    .scene{
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+    .cube{
+        margin-left: 8px;
+        margin-top: 6px;
+    }
+}
